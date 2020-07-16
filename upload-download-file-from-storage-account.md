@@ -4,7 +4,7 @@
 `az group create --location eastasia --name myResourceGroup`
 
 ## Create a new storage account
-`az storage account create --location eastasia --name myResourceGroup --name mystorageaccount --sku Standard_LRS`
+`az storage account create --location eastasia --resource-group myResourceGroup --name mystorageaccount --sku Standard_LRS`
 
 ## List the access keys for a storage account
 `az storage account keys list --resource-group myResourceGroup --account-name mystorageaccount`
